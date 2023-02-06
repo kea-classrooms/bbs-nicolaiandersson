@@ -5,6 +5,6 @@ if [ -d ./samples ]
 then
   echo "The directory 'samples' is checked in - that's a mistake"
   exit 1
-else
+else 
   echo "Fine. No 'samples' is checked in to the repo!"
 fi
